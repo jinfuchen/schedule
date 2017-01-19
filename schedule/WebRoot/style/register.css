@@ -1,0 +1,34 @@
+/* CSS Document */
+
+body,a,span,p,b,div,h1,h2,h3,h4,h5,h6,ul,li,ol,form,input,select{padding:0; margin:0;}
+body{font-family: Arial, Helvetica, sans-serif,"ËÎÌו"; }
+div,span,font,a,p,li,ol,input{font-size:12px; }
+img{border:none;}
+ul,dl,dt{list-style:none;}
+ol{ padding:0 30px; margin:0 30px;}
+ol li{ line-height:22px;}
+a,a:visited{text-decoration:none;color:#000000;}
+a:hover{color:#CC0000; text-decoration:underline;}
+.clear{clear:both; font-size:0; line-height:0;}
+
+/* all */
+.cent{ width:960px; margin:0 auto 8px auto; padding:0;}
+
+/* reg */
+.tdbian{border:1px solid #C0CFDA;-moz-border-radius:3px;-webkit-border-radius:3px; background:url(../images/background.png) center top repeat-x; margin-top:10px; padding-bottom:20px; position:relative;}
+ .tdbian li{ font-size:14px; line-height:200%;}
+ .tdbian ol li a{ font-size:14px;}
+ .tdbian td{ line-height:200%;}
+ .inp{height:22px;}
+ .tdbian form{ padding:10px 20px; margin:0;}
+ .tdbian form p{ line-height:200%;}
+ p.an{ line-height:40px; height:40px; margin:0 30px; font-size:14px; color:#FF0000;}
+ h3.tit{padding:5px 0 10px 20px;font-size:14px; margin:15px 5px 5px 5px; border-bottom:1px solid #0099CC;}
+ .reg-btn{width:102px;background:url(../images/bg-reg-btn.gif) no-repeat 0 0;word-spacing:.3em;display:block;height:32px;line-height:32px; color:#000; border:none; font-size:14px; font-weight:bold;cursor:pointer;text-align:center;}
+.reg_btnon{width:102px;background:url(../images/bg-reg-btn.gif) no-repeat 0 -78px;word-spacing:.3em;display:block;height:32px;line-height:32px; color:#FFF; border:none;font-size:14px; font-weight:bold;cursor:pointer; text-align:center;}
+.reg_btnon1{width:102px;background:url(../images/bg-reg-btn.gif) no-repeat 0 -39px;word-spacing:.3em;display:block;height:32px;line-height:32px; color:#FFF; border:none;font-size:14px; font-weight:bold;cursor:pointer; text-align:center;}
+.in200 input,input.in200{ width:200px; height:22px; line-height:22px;}
+	.in20{ height:22px; line-height:22px; margin-left:20px;}
+	.in20 input{ margin-right:5px;height:22px; line-height:22px;}
+.tdinput input{ float:left; margin-right:20px;}
+ .pred{ color:#FF0000;}

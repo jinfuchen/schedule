@@ -1,0 +1,73 @@
+body{
+	margin:0;/* margin 简写属性在一个声明中设置所有外边距属性,默认0 */
+	padding:0;/*padding 简写属性在一个声明中设置所有内边距属性*/
+}
+/*网页主要布局容器*/
+#container{
+	background: none repeat scroll 0 0 #eeeeee;
+	/*none:表示没有设置背景图片，repeat：表示图片重复;scroll :背景图片随浏览器下拉而滚动,0水平位置在x0,0垂直位置在y0,#eeeeee就是浅灰色*/
+	margin:0 auto;/*表示上下边界为0，auto左右则根据宽度自适应相同值（即居中）*/
+    padding-bottom: 25px;/*设置元素的下内边距为25px*/
+    position: relative;/*规定元素的定位类型,相对定位*/
+    min-height: 600px;/*设置元素的最小高度*/
+    width: auto;/*宽度自适应,可以调整宽度*/
+    border-top-left-radius: 8px;/*定义左上角边框的形状*/
+	text-align:left;
+}
+/* header */
+#header {
+	background-color: #e5e5e5;/*背景颜色*/
+	box-shadow: 0 0 1px #ffffff;/*box-shadow向框添加一个或多个阴影,0 0水平阴影的位置,垂直阴影的位置,模糊距离,阴影的颜色*/
+	border-top: 1px solid #d6d6d6;
+	/*上边框的所有属性设置到一个声明,border-top-width ,border-top-style ,border-top-color */
+	border-bottom: 1px solid #d6d6d6;/*下边框的所有属性设置到一个声明*/
+	padding-left: 10px;/*属性设置元素左内边距*/
+}
+#header h1{
+	height:80px;
+	line-height:80px;/*设置行间的距离（行高）*/
+	margin:0;
+	padding-left:10px;
+	font: arial,sans-serif;/*设置所有字体属性*/
+	background: #EEE;
+	color: #79B30B;
+}
+
+#content {
+	padding-right:20px;/*属性设置元素右内边距*/
+	padding-left:20px;/*属性设置元素左内边距*/
+	margin-top: 20px;/*设置元素的上外边距*/
+	*zoom:1;/*zoom:1IE浏览器的专有属性，它可以设置或检索对象的缩放比例。它还有其他一些小作用，比如触发ie的hasLayout属性，清除浮动、清除margin的重叠等。*/
+	font: 76% arial,sans-serif;
+}
+/*这里用.在html中就用class类，#则用id标志*/
+.raw_fluid{
+	width:inherit;
+}
+.column1{
+	height:400px;
+	width:49%;/*宽度占50%*/
+	background-color:#FEFEFE;/*背景颜色接近白色*/
+	border:1px solid #CDCDCD;/*边框的左右上下所有属性设置到一个声明*/
+	float:left;/*float 属性定义元素在左方向浮动*/
+}
+.column2{
+	height:400px;
+	width:50%;
+	background-color:#FEFEFE;
+	border:1px solid #CDCDCD;
+	float:left;
+}
+/*footer*/
+#footer{
+	background: #333;
+	color: #FFF;
+	clear:both;
+	width:100%;
+	font: 76% arial,sans-serif;
+}
+#footer p{
+	margin:0;
+	text-align:center;
+	padding:5px 10px;
+}
